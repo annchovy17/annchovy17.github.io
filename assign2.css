@@ -1,0 +1,68 @@
+
+a:link {
+    color: blue;
+}
+  
+a:visited {
+    color: purple;}
+
+div {
+    padding-top: 20px;
+    padding-bottom:20px}
+
+.menu {
+    text-align: center;}
+
+#red_box {
+    border-style: solid;
+    border-width: medium;
+    border-color: red;
+    line-height: 1.8;
+    padding-top: 10px;
+    padding-bottom: 0px;}
+
+th, td {
+    text-align: center;
+    border-style: double;
+    border-width: 2px;
+    padding: 0px 20px 0px 20px;}
+th {background-color: yellow;}
+td {background-color: aquamarine;}
+
+.box1 {
+    border: 2px solid purple;
+    border-radius: 8px;
+    padding: 0px 0px 3px 0px;
+    text-align: center;
+    line-height: 1.8;
+    object-fit: contain;
+    max-width: min-content;
+    float: left;
+    margin: 5px;}
+
+.box2 {
+    border: 2px solid purple;
+    border-radius: 8px;
+    padding: 0px 0px 3px 0px;
+    text-align: center;
+    line-height: 1.8;
+    object-fit: contain;
+    max-width: min-content;
+    float:left;
+    margin: 5px;}
+
+.box3 {
+    border: 2px solid purple;
+    border-radius: 8px;
+    padding: 0px 0px 3px 0px;
+    text-align: center;
+    line-height: 1.8;
+    object-fit: contain;
+    max-width: min-content;
+    float: right;
+    margin: 5px;}
+
+
+.page_bottom {
+    width: 942px;
+}
