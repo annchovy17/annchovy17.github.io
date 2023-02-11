@@ -30,9 +30,9 @@ th {background-color: yellow;}
 td {background-color: aquamarine;}
 
 .box1 {
-    border: 2px solid purple;
+    border: 2px solid orange;
     border-radius: 8px;
-    padding: 0px 0px 3px 0px;
+    padding: 3px 3px 3px 3px;
     text-align: center;
     line-height: 1.8;
     object-fit: contain;
@@ -41,9 +41,9 @@ td {background-color: aquamarine;}
     margin: 5px;}
 
 .box2 {
-    border: 2px solid purple;
+    border: 2px solid orange;
     border-radius: 8px;
-    padding: 0px 0px 3px 0px;
+    padding: 3px 3px 3px 3px;
     text-align: center;
     line-height: 1.8;
     object-fit: contain;
@@ -52,9 +52,9 @@ td {background-color: aquamarine;}
     margin: 5px;}
 
 .box3 {
-    border: 2px solid purple;
+    border: 2px solid orange;
     border-radius: 8px;
-    padding: 0px 0px 3px 0px;
+    padding: 3px 3px 3px 3px;
     text-align: center;
     line-height: 1.8;
     object-fit: contain;
@@ -64,5 +64,5 @@ td {background-color: aquamarine;}
 
 
 .page_bottom {
-    width: 942px;
+    width: 961px;
 }
