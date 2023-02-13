@@ -1,0 +1,132 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+header {
+    height: 75px;
+}
+
+header img {
+    height: 100%;
+}
+
+.pinkbox {
+    background-color: pink;
+    color: white;
+    height: 600px;
+    border: 2px solid black;
+    padding: 2%;
+}
+
+.actrow {
+    height: 42%;
+    margin-bottom: 2%;
+}
+
+
+.imgbox {
+    width: 30%;
+    float: left;
+    margin: auto 6%;
+}
+
+.infobox {
+    width: 52%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+}
+
+.imgbox img {
+    border: 2px solid purple;
+    max-width: 90%;
+}
+
+.box {
+    height: 44px;
+    margin-bottom: 3%;
+}
+
+.contactimg {
+    height: 44px;
+    float: left;
+}
+
+.contactimg img {
+    width: 100%;
+    height: 100%;
+    margin: auto 2px;
+}
+
+.phonenum {
+    height: 100%;
+    width: 82%;
+    float: left;
+    margin: auto 2%;
+    padding-top: 14px;
+}
+
+.phonenum span {
+    padding-top: 10px;
+}
+
+table {
+    border: 1px solid black;
+    margin-bottom: 3%;
+  }
+
+th, td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+th, tfoot {
+    background-color: rgb(143, 206, 48);
+}
+
+tr:hover {
+    background-color: lightpink;
+} 
+
+nav {
+    text-align: center;
+    padding: 2%;
+}
+
+a:link {
+    color: hotpink;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: magenta;
+} 
+a:active {
+    color: red;
+}
+
+.centertrio {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 1px;
+    justify-content: center;
+}
+
+.centertrio img {
+    border: 1px solid black;
+    max-width: 100%;
+}
+.otherimgbox {
+    align-self: center;
+}
+.paragraph {
+    border: 1px solid black;
+}
+p.otherpages {
+    text-align: center;
+    padding: 8%;
+}
