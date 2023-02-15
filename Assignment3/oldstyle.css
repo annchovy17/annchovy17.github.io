@@ -1,0 +1,57 @@
+body {
+    background-color: aquamarine;
+}
+
+.mainbox{
+    background-image: url(Meteora.jpg);
+    height: 800px;
+    position: relative;
+
+}
+
+/* .herobox > img{
+    width: 100%;
+    height: 84%;
+}
+.herobox > .meteora{
+    width: 100%;
+    height: 100%;
+} */
+
+.clock {
+    width: 180px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+/* .hands {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+} */
+
+.hour {
+    width: 60px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.minute {
+    width: 130px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+.mainbox > div{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    color: antiquewhite;
+    background-color: rgba(108, 122, 137, 0.6);
+    text-align: center;
+    line-height: 1.2;
+    padding: 4px;
+    border-radius: 10px;
+}

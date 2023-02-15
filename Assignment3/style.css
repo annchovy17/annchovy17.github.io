@@ -1,0 +1,58 @@
+.mainbox{
+    height: 800px;
+    position: relative;
+    background-image: url(Meteora.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mainbox > p{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: white;
+    background-color: rgba(108, 122, 137, 0.7);
+    text-align: center;
+    line-height: 1.2;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.clock {
+    position: absolute;
+    width: 180px;
+    left: 10%;
+    top: 11%;
+}
+
+.clockface{
+    width: 100%;
+}
+
+
+.hour {
+    position: absolute;
+    width: 28%;
+    left: 50%;
+    top: 41%;
+    transform-origin: 0%;
+    animation: hourtick 10s infinite;
+}
+.minute {
+    position: absolute;
+    width: 36%;
+    left: 50%;
+    top: 40%;
+    transform-origin: 0%;
+    animation: mintick 10s infinite;
+}
+
+@keyframes hourtick {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(30deg)}
+}
+
+@keyframes mintick {
+    0% {transform: rotate(-90deg);}
+    100% {transform: rotate(270deg);}
+}
