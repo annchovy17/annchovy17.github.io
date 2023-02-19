@@ -1,0 +1,160 @@
+.gridbox {
+    display: grid;
+    grid-template-columns: 46% 46%;
+    justify-content: center;
+    width: 100%;
+    min-height: max-content;
+    gap: 30px;
+    position: relative;
+}
+
+.innerbox {
+    border: 3px solid red;
+    border-radius: 4%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+    overflow: auto;
+}
+
+.innerbox > img {
+    width: 70%;
+    height: 65%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#md1{
+    background-color: rgba(189, 195, 199, 0.6);
+}
+
+#md2{
+    background-color: rgba(245, 69, 39, 0.4);
+}
+.mymd1 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0; 
+    pointer-events: none;
+    overflow: auto;
+}
+
+.mymd1:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.msgbox {
+    position: relative;
+    background-color: yellow;
+    width: 66%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2px;
+    margin-bottom: 3%;
+}
+
+.msgbox > img {
+    width: 70%;
+    height: 65%;
+}
+.mdtop1 {
+    background-color: pink;
+    color:white;
+    line-height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.mdpara {
+    background-color: pink;
+    /* position: absolute; */
+    margin-top: 66px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 12px;
+}
+
+.msgbox2 > img{
+    width: 60%;
+    margin-top: 14px;
+    margin-left: 3%;
+    padding-bottom: 8px;
+    /* margin-top: 30%; */
+    /* height: 65%; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+.msgbox2 {
+    position: relative;
+    background-color: rgb(102, 102, 199);
+    width: 66%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 5%;
+    padding: 2px;
+    margin-bottom: 3%;
+}
+
+.mdtop2 {
+    background-color: pink;
+    color:white;
+    line-height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.mdpara2 {
+    background-color: pink;
+    /* position: absolute; */
+    margin-top: 66px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 12px;
+}
+
+.msgbox > img{
+    width: 60%;
+    margin-top: 14px;
+    margin-left: 3%;
+    padding-bottom: 8px;
+    /* margin-top: 30%; */
+    /* height: 65%; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+
+.linkbox {background-color: blanchedalmond;
+    text-decoration: none;
+    border: 3px solid pink;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.close{
+    padding: 5px;
+    background-color: white;
+    width: 18px;
+    position:absolute;
+    top:0;
+    right:0;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {color: hotpink;}
+
+
