@@ -1,0 +1,251 @@
+body {
+    background-color: rgba(245, 241, 35, 0.4);
+}
+
+.header {height: 100px}
+
+h1 {font-family: Apple Chancery;}
+.brandname {
+    margin-left: 100px;
+    width: 420px;
+    animation: brandborder 5s infinite;}
+@keyframes brandborder {
+    0% {border: 2px dotted green;}
+    100% {border: 2px solid yellow;}
+}
+.slogan {
+    margin-left: 100px;
+    animation: sloganmove 5s infinite;
+}
+@keyframes sloganmove {
+    0% {margin-left: 100px;}
+    50% {margin-left: 300px;}
+    99% {margin-left: 100px;}
+}
+.logo >img {
+    float: left;
+    height: 90px;
+    margin-right: 2%;
+    animation: logospin 5s infinite linear;
+}
+@keyframes logospin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+.herobox {
+    width: 100%;
+    position: relative;
+}
+.heroimg {
+    width: 100%;
+    max-height: 500px;
+}
+.blurb {
+    background-color: rgba(232, 232, 232, 0.8);
+    border: 3px solid white;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    padding: 0px 15px 0px 15px;
+    width: 35%;
+
+}
+span {font-size: smaller;}
+.stage {
+    height: 45px;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+.slidewrapper {
+    width: 300%; 
+    height: 100%;
+    animation: slideshow 10s infinite;   
+}
+.stage div div{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    text-align: center;
+
+}
+@keyframes slideshow {
+0% {margin-left:0%;}
+18% {margin-left:0%;}
+33.333% {margin-left: -100%;}
+49% {margin-left:-100%;}
+67% {margin-left: -200%;}
+96% {margin-left:-200%;} 
+100% {margin-left: 0%;}  
+}
+.s1{background-color: rgb(179, 179, 58);}
+.s2{background-color: rgb(104, 152, 96);}
+.s3{background-color: rgb(139, 158, 103);}
+
+.container {
+    height: 18%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 12%;
+    justify-content: center;
+}
+.leftbox{
+    height: 100%;
+    max-height: 350px;
+    position: relative;
+}
+.leftbox img {
+    height: 100%;
+    width: 100%;
+}
+.leftbox p{
+    border: 2px solid rgb(117, 159, 54);
+    background-image: linear-gradient(to top left, rgba(243, 171, 200, 0.6), rgb(251, 231, 239, 0));
+
+    /* background-color: rgba(232, 232, 232, 0.3); */
+    color: antiquewhite;
+    position: absolute;
+    padding: 7%;
+    left: 7%;
+    top: 3%;
+    width: 60%;
+}
+.rightbox {
+    background-image: linear-gradient(to bottom right, rgba(251, 231, 239, 1), rgb(104, 152, 96, 0.2));
+    color: rgb(117, 159, 54);
+    height: 100%;
+    max-height: 350px;
+    padding: 0% 5% 0% 8% ;
+}
+/* .productcont{
+    display: grid;
+    grid-template-rows: 260px 260px;
+    row-gap: 50px;
+    justify-content: center;
+} */
+.lotionbox {
+    display: grid;
+    grid-template-columns: 29% 29% 29%;
+    column-gap: 20px;
+    justify-content: center;
+    overflow: scroll;
+}
+.product {
+    width: 100%;
+    height: 510px;
+    text-align: center;
+}
+.product > img {
+    height: 250px;
+    width: 220px;
+}
+
+.greentext {    
+    color: rgb(117, 159, 54);
+}
+.description {font-size: small;}
+
+.addbtn {
+    background-color: black;
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+.addbtn:hover {
+    background-color: gray;
+}
+
+.footer {
+    background-color: rgb(25, 24, 24);
+}
+.footbox {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.four ul{
+    list-style-type: none;
+}   
+
+.mymdlwindow1 {
+    background-color: rgba(189, 195, 199, 0.6);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0; 
+    pointer-events: none;
+    overflow: auto;
+}
+.mymdlwindow1:target {
+    opacity: 1;
+    pointer-events: all;
+}
+.iteminfobox {
+    position: relative;
+    background-color: rgb(242, 240, 240);
+    width: 60%;
+    margin: auto;
+    margin-top: 110px;
+    padding: 15px;
+}
+.itemboxmiddle {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 10%;
+    justify-content: center;
+}
+.itemboximg > img {
+    height: 200px;
+}
+
+.graybox {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+}
+
+.close{
+    padding: 5px;
+    background-color: gray;
+    width: 18px;
+    position:absolute;
+    top:0;
+    right:0;
+    text-align: center;
+    font-weight: bold;
+}
+a:link {text-decoration: none;
+}
+.contshop {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 5px;
+}
+
+.social {
+    color: white;
+    text-align: center;
+    margin-right: 12px;
+    padding-bottom: 70px;
+}
+.socialgrid {
+    display: grid;
+    grid-template-columns: 35px 35px 35px 35px 35px;
+    justify-content: center;
+    margin-right: 8px;
+}
+.icon > img {
+    width: 30px;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-size: small;
+}
