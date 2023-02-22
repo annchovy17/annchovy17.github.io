@@ -28,7 +28,12 @@ let celsiusDeg= (fahrenDeg-32)*0.5556;
 console.log(`${fahrenDeg}\u00B0F is ${celsiusDeg}\u00B0C`)
 
 // Part C
-console.log(`Lucas\' BMI (${lucasBMI}) is higher than Peter\'s (${peterBMI})!`)
+if (lucasBMI > peterBMI){
+    console.log(`Lucas\' BMI (${lucasBMI}) is higher than Peter\'s (${peterBMI})!`)    
+}
+else if (peterBMI<lucasBMI){
+    console.log(`Peter\'s BMI (${peterBMI}) is higher than Lucas\' (${lucasBMI})!`)
+}
 
 
 // Part D
