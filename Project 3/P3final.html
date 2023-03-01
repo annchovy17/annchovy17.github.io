@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ proj3</title>
+    <link rel="stylesheet" href="newproject3.css">
+    
+</head>
+<body>
+    <div class="gamename">
+        <h1>GUESS MY NUMBER</h1>
+        <h3>Guess the number between 1 and 100</h3>
+    </div>
+
+<!-- main box container -->
+    <div class="mainbox">
+        <div class="toprow">
+          <div class="scorebox">
+            <p>Score: <span class="scoreSlot">10</span></p>
+            <p>High Score: <span class="highScore">0</span></p>
+          </div>
+          <div class="resetBox">
+            <p><button class="resetBtn">Reset</button></p>
+          </div>
+        </div>
+<!-- guess box -->
+        <div id="test" class="middlerow">
+            <img src="question.webp" alt="question mark" height="120px">
+            <br>
+            <input type="text" id="userGuess" name="userGuess" placeholder="Guess a number">
+            <br>
+            <p id="winner" style="color:white"></p>
+            <button class="btn">Check number</button>
+            <p id="shake" class="msg">Guess a number</p>
+        </div>
+
+        <div class="bottomrow">
+          <ul>
+            
+          </ul>
+            <p class="history">Guess History</p>
+        </div>
+
+    </div>
+
+
+
+    <script src="P3final.js">
+
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(59, 241, 241);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gamename{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.gamename h1 {
+    text-shadow: 2px 2px 4px pink;
+}
+
+.mainbox {
+    background-color: rgb(247, 247, 233);
+    display: grid;
+    margin: auto;
+    border-radius: 10px;
+    /* height: 72%; */
+    width: 70%;
+    row-gap: 10px;
+    padding: 10px;
+}
+
+.toprow {
+    align-items: center;
+}
+.scorebox {
+    background-color: pink;
+    padding: 0px 10px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+/* .resetBox{
+    position: absolute;
+} */
+.resetBtn {
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px 10px;
+    float: right;
+    margin-right: 4px;
+}
+.middlerow {
+    background-color: tan;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 88%;
+}
+.gameover {
+    background-color: red;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 88%;
+}
+.bottomrow {
+    background-color: rgb(59, 241, 241);
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+#userGuess {
+    border-radius: 10px;
+    height: 20px;
+    padding: 2px;
+    text-align: center;
+    margin: 10px;
+}
+.btn {
+    border-radius: 10px;
+    background-color: pink;
+    padding: 3px 4px;
+}
+.playbtn {
+    border-radius: 10px;
+    background-color: pink;
+    padding: 3px 4px;
+}
+
+.msg {
+    color: white;
+}
+
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+   }
