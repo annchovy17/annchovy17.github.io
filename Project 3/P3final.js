@@ -28,10 +28,9 @@ function guessCheck(){
     }
     
     else if (Number(userInput.value)===rightNumb){
-        highScore.textContent=score;
-        highestScore.push(score)
-        console.log(highestScore)
-        winner.textContent='Congrats! You win!'
+        highestScore.push(score);
+        highScoreUpdate();
+        winner.textContent='Congrats! You win!';
         msg.textContent='Your guess was correct';
         midBox.style.backgroundColor='red';
         userInput.remove();
@@ -74,6 +73,11 @@ function guessCheck(){
         userInput.value='';
     }
 
+
+function highScoreUpdate(){
+    highestScore.sort(function(a,b){return b-a});
+    highScore.textContent=highestScore[0];
+}
 
 
 function newGame(){
